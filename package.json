@@ -1,0 +1,32 @@
+{
+  "name": "api-cors-lambda-crud-dynamodb",
+  "version": "0.0.1",
+  "description": "Running an API Gateway with four Lambdas to do CRUD operations on DynamoDB",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -w",
+    "cdk": "./node_modules/.bin/cdk",
+    "synth": "./node_modules/.bin/cdk synthesize",
+    "deploy": "./node_modules/.bin/cdk deploy"
+  },
+  "author": {
+    "name": "Aleksandar Simovic <alexander.simovic@gmail.com>",
+    "url": "https://serverless.pub"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.5",
+    "@types/node": "^10.17.0",
+    "@types/fs-extra": "^8.1.0",
+    "uuid": "^7.0.1",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-dynamodb": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/core": "*",
+    "aws-cdk": "^1.26.0"
+  }
+}
