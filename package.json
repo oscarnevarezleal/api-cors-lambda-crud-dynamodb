@@ -27,6 +27,6 @@
     "@aws-cdk/aws-dynamodb": "*",
     "@aws-cdk/aws-lambda": "*",
     "@aws-cdk/core": "*",
-    "aws-cdk": "^1.26.0"
+    "aws-cdk": "^1.174.0"
   }
 }
